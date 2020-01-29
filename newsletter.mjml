@@ -46,20 +46,20 @@
           <mj-text font-style="italic"
                    font-size="20px"
                    font-family="Helvetica Neue"
-                   color="#626262">My Awesome Text</mj-text>
+                   color="white">Sophrologue</mj-text>
 
-            <mj-text color="#525252">
+            <mj-text color="white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
           </mj-text>
 
             <mj-button background-color="#F45E43"
-                     href="#">Learn more</mj-button>
+                     href="#">Voire SOPHROLOGUE</mj-button>
 
     </mj-column>
   </mj-section>
 
 <!-- Side image -->
-<mj-section background-color="white">
+<mj-section background-color="#018595">
 
   <!-- Left image -->
   <mj-column>
@@ -72,18 +72,19 @@
     <mj-text font-style="italic"
              font-size="20px"
              font-family="Helvetica Neue"
-             color="#626262">
-        Find amazing places
-      </mj-text>
+             color="white">
+Hypnothérapeute      </mj-text>
 
-      <mj-text color="#525252">
+      <mj-text color="white">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
 
+            <mj-button background-color="#F45E43"
+                     href="#">Voire HYPNOTHÉRAPEUTE</mj-button>
   </mj-column>
 </mj-section>
 
 <!-- Icons -->
-<mj-section background-color="#018595">
+<mj-section background-color="white">
   <mj-column>
     <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
   </mj-column>
