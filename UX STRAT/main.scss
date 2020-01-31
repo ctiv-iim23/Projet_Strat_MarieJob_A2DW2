@@ -1,0 +1,128 @@
+$size : 100px;
+
+
+
+#logo {
+  margin-top: 10px;
+  width: $size;
+  height: $size;
+}
+
+
+
+#title {
+  font-family: Montserrat, sans-serif;
+  color : #22515f;
+
+}
+
+#image {
+  width: 100%;
+}
+
+.quote {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: $size;
+  color: #22515f;;
+}
+
+
+body {
+  background-color: #CABBB6;
+  background-size: cover;
+
+}
+
+.sub {
+  font-weight: bold;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+#form {
+  width: 25%;
+  margin-right : 10px;
+
+}
+
+#button {
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: #CABBB6;
+
+}
+
+#button:hover {
+  background-color: #22515f;
+  color: #CABBB6;
+  transition: 0.5s ease;
+}
+
+input[type=text] {
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.prez {
+  margin-top: 50px;
+}
+
+.def  {
+  margin-top: 25px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+
+}
+
+.intro {
+  margin-top: 25px;
+  color: #22515f;
+  font-family: Montserrat,sans-serif;
+
+
+}
+
+#subtitle {
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+.plus {
+  color: #CABBB6;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+}
+
+.why {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+
+.down {
+  height: 50px;
+}
+
+.info {
+  background-image: url("sunrise.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 45%;
+  height: 300px;
+}
+
+.vu {
+  background-color: #22515f;
+}
+
+.Subscribe {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #CABBB6;
+}
