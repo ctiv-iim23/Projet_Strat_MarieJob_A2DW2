@@ -2,7 +2,7 @@
 
 Projet à 4 par :
 
-Christian TIV
-Cyril SABOUREAU
-Florent TROUILLET
+Christian TIV,
+Cyril SABOUREAU,
+Florent TROUILLET,
 Antoine SAVELLI
