@@ -112,7 +112,8 @@
 
 <!-- Avis client -->
 
-<mj-section background-color="grey">
+<mj-section background-color="grey"
+            padding="20px">
   <mj-column>
     <mj-text  align="center"
               color="white"
