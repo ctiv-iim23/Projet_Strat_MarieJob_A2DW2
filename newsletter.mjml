@@ -1,7 +1,7 @@
 <mjml>
   <mj-body>
 
-<!-- Company Header -->
+<!-- 1st container -->
 <mj-hero
       mode="fixed-height"
       height="469px"
@@ -17,60 +17,121 @@
         color="#ffffff"
         font-family="Helvetica"
         align="center"
-        font-size="45px"
-        line-height="45px"
+        font-size="35px"
         font-weight="900">
-        MARIEJOB :<br><br>
-        SOPHROLOGUE CERTIFIÉE & HYPNOTHÉRAPEUTE      
+        MARIEJOB    
         </mj-text>
-        <mj-button background-color="#F63A4D"
-                 href="#">
+      <mj-text
+        padding="20px"
+        color="#ffffff"
+        font-family="Helvetica"
+        align="center"
+        font-size="30px"
+        line-height="45px"
+        font-style="italic">
+        Sophrologue certifiée & Hypnothérapeute      
+        </mj-text>
+        <mj-button background-color="#FFBB3C"
+                width="300px"
+                height="50px"
+                font-size="30px"
+                color="black"
+                font-weight="500"
+                href="https://www.mariejob.fr/">
         Voir le site
       </mj-button>
     </mj-hero>
 
-<!-- Intro text -->
+<mj-section background-color="white">
+<mj-column>
+<mj-text
+  font-size="25px"
+  color="grey"
+  padding="20px"
+  line-height="30px"
+  align="center">Etes-vous stressé ? Manque de concentration ? Manque d'inspiration ?<br><br> Vennez chez Marie Job en fixant un RDV !
+</mj-text>
+        <mj-button background-color="#018595"
+                width="400px"
+                height="40px"
+                font-size="25px"
+                color="white"
+                href="https://www.doctolib.fr/sophrologue/neuilly-sur-seine/marie-job">
+        Prendre un RDV en ligne
+      </mj-button>
+</mj-column>
+</mj-section>
+
+<!-- Sophrologue -->
   <mj-section background-color="#FFCE9A">
     <mj-column>
-      <mj-image width="200px"
-              src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-              </mj-column>
-        <mj-column width="400px">
-
           <mj-text font-style="italic"
                    font-size="20px"
-                   font-family="Helvetica Neue"
+                   align="center"
                    color="white">SOPHROLOGUE</mj-text>
 
-            <mj-text color="white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
+            <mj-text color="white"
+                      align="center">
+                La Sophrologie est une méthode simple et efficace.<br><br>
+                Elle permet aux enfants de se sentir mieux dans leur vie ; de maîtriser leur existence à leur niveau d'enfant ; de se préparer à leur futur avec tous leurs potentiels ; de devenir adulte demain, libres, dans le respect d'eux et des autres, prêts à vivre harmonieusement.<br><br>
+                Elle permet aux parents de se vivre parents responsables et heureux de l'être, sans culpabilité et dans l'accueil de ces petits "phénomènes".<br><br>
+                C'est la rencontre avec soi et son existence. 
           </mj-text>
-
-            <mj-button background-color="#F45E43"
-                     href="#">Voire SOPHROLOGUE</mj-button>
-
+          <mj-button background-color="#F45E43"
+                     href="https://www.mariejob.fr/la-sophrologie">Voir SOPHROLOGUE</mj-button>
     </mj-column>
+    <mj-column>
+      <mj-image height="300px"
+              src="papiers-peints-forme-d-39-arbre-des-racines-et-des-feuilles-vertes-vector-illustration.jpg.jpg" />
+              </mj-column>
   </mj-section>
 
-<!-- Side image -->
+<!-- Hypnose -->
 <mj-section background-color="#018595">
   <mj-column>
     <mj-image width="200px"
-              src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+              src="services-hypnotherapie.jpg" />
               </mj-column>
   <mj-column>
     <mj-text font-style="italic"
              font-size="20px"
-             font-family="Helvetica Neue"
+             align="center"
              color="white">
-             HYPNOTHÉRAPEUTE      
+             HYPNOSE      
              </mj-text>
 
-      <mj-text color="white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+      <mj-text color="white"
+              align="center">
+      L'état d'hypnose permet à cette partie plus inconsciente, plus imaginative et créative de faciliter l'accès à ses ressources, et parfois à certaines qui se cachent dans les recoins de l'esprit.<br><br>
+      Alors la personne attentive à ses ressentis internes, à ses pensées, à ses émotions, à ses sensations... accède plus facilement et librement à de nouvelles associations, comme lorsque des connexions se créent à des niveaux de profondeurs différents vers la voie de leur changement.</mj-text>
 
             <mj-button background-color="#F45E43"
-                     href="#">Voire HYPNOTHÉRAPEUTE</mj-button>
+                     href="https://www.mariejob.fr/seances">Voir HYPNOE</mj-button>
+  </mj-column>
+</mj-section>
+
+<!-- Avis client -->
+
+<mj-section background-color="grey">
+  <mj-column>
+    <mj-text  align="center"
+              color="white"
+              font-size="20px">
+              Avis client :<br><br></mj-text>
+  </mj-column>
+    <mj-text font-style="italic"
+              align="center"
+              color="white">
+      " J’ai commencé les séances de sophrologie car j’avais des difficultés sur ma gestion du stress et ma confiance.<br><br>
+      Aujourd’hui, mon évolution se voit semaine après semaine ! Marie m’a aidé à prendre du recul sur des évènements complexes, gérer les grosses urgences, et tirer le positif du quotidien.<br><br>
+      A l’écoute et bienveillante, elle construit ses séances de manière personnalisée aux différentes situations qui peuvent nous toucher.<br><br>
+      C’est donc tout naturellement que je recommande Marie. C’est une sophrologue de confiance et qui fait preuve d’un grand professionnalisme. "<br><br> 
+    </mj-text>
+    <mj-text font-style="italic"
+              align="center"
+              color="white"
+              font-size="20px">
+              - Alexis B.</mj-text>
   </mj-column>
 </mj-section>
 
@@ -92,6 +153,8 @@
   <mj-column>
     <mj-social>
       <mj-social-element name="facebook" />
+      <mj-social-element name="twitter" />
+      <mj-social-element name="linkedin" />
     </mj-social>
   </mj-column>
 </mj-section>
