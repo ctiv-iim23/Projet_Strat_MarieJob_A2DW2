@@ -2,45 +2,43 @@
   <mj-body>
 
 <!-- 1st container -->
-<mj-hero
-      mode="fixed-height"
-      height="469px"
-      background-width="600px"
-      background-height="469px"
-      background-url="5afe60462baf41e79586f3fdaf78d664.jpg"
-      background-color="#2a3448"
-      padding="100px 0px">
-      <mj-image width="0px"
-              src="marie-job.svg" />
-      <mj-text
-        padding="20px"
-        color="#ffffff"
-        font-family="Helvetica"
-        align="center"
-        font-size="35px"
-        font-weight="900">
-        MARIEJOB    
-        </mj-text>
-      <mj-text
-        padding="20px"
-        color="#ffffff"
-        font-family="Helvetica"
-        align="center"
-        font-size="30px"
-        line-height="45px"
-        font-style="italic">
-        Sophrologue certifiée & Hypnothérapeute      
-        </mj-text>
-        <mj-button background-color="#FFBB3C"
-                width="300px"
-                height="50px"
-                font-size="30px"
-                color="black"
-                font-weight="500"
-                href="https://www.mariejob.fr/">
-        Voir le site
-      </mj-button>
-    </mj-hero>
+<mj-hero mode="fixed-height"
+height="469px"
+background-width="600px"
+background-height="469px"
+background-url="5afe60462baf41e79586f3fdaf78d664.jpg"
+background-color="#2a3448"
+padding="100px 0px">
+<mj-image width="0px" src="marie-job.svg"></mj-image>
+<mj-text
+  padding="20px"
+  color="#ffffff"
+  font-family="Helvetica"
+  align="center"
+  font-size="35px"
+  font-weight="900">
+  MARIEJOB    
+  </mj-text>
+<mj-text
+  padding="20px"
+  color="#ffffff"
+   font-family="Helvetica"
+  align="center"
+  font-size="30px"
+  line-height="45px"
+  font-style="italic">
+  Sophrologue certifiée & Hypnothérapeute      
+</mj-text>
+<mj-button background-color="#FFBB3C"
+          width="300px"
+          height="50px"
+          font-size="30px"
+          color="black"
+          font-weight="500"
+          href="https://www.mariejob.fr/">
+  Voir le site
+</mj-button>
+</mj-hero>
 
 <mj-section background-color="white">
 <mj-column>
@@ -51,64 +49,61 @@
   line-height="30px"
   align="center">Etes-vous stressé ? Manque de concentration ? Manque d'inspiration ?<br><br> Vennez chez Marie Job en fixant un RDV !
 </mj-text>
-        <mj-button background-color="#018595"
-                width="400px"
-                height="40px"
-                font-size="25px"
-                color="white"
-                href="https://www.doctolib.fr/sophrologue/neuilly-sur-seine/marie-job">
-        Prendre un RDV en ligne
-      </mj-button>
+<mj-button background-color="#018595"
+  width="400px"
+  height="40px"
+  font-size="25px"
+  color="white"
+  href="https://www.doctolib.fr/sophrologue/neuilly-sur-seine/marie-job">
+  Prendre un RDV en ligne
+</mj-button>
 </mj-column>
 </mj-section>
 
 <!-- Sophrologue -->
-  <mj-section background-color="#FFCE9A">
-    <mj-column>
-          <mj-text font-style="italic"
-                   font-size="25px"
-                   align="center"
-                   color="black">SOPHROLOGUE</mj-text>
-
-            <mj-text color="black"
-                      align="center"
-                      font-size="15px">
-                La Sophrologie est une méthode simple et efficace.<br><br>
-                Elle permet aux enfants de se sentir mieux dans leur vie ; de maîtriser leur existence à leur niveau d'enfant ; de se préparer à leur futur avec tous leurs potentiels ; de devenir adulte demain, libres, dans le respect d'eux et des autres, prêts à vivre harmonieusement.<br><br>
-                Elle permet aux parents de se vivre parents responsables et heureux de l'être, sans culpabilité et dans l'accueil de ces petits "phénomènes".<br><br>
-                C'est la rencontre avec soi et son existence. 
-          </mj-text>
-          <mj-button background-color="#F45E43"
-                     href="https://www.mariejob.fr/la-sophrologie">Voir SOPHROLOGUE</mj-button>
+<mj-section background-color="#FFCE9A">
+  <mj-column>
+    <mj-text font-style="italic"
+            font-size="25px"
+            align="center"
+            color="black">SOPHROLOGUE</mj-text>
+    <mj-text color="black"
+              align="center"
+              font-size="15px">
+              La Sophrologie est une méthode simple et efficace.<br><br>
+              Elle permet aux enfants de se sentir mieux dans leur vie ; de maîtriser leur existence à leur niveau d'enfant ; de se préparer à leur futur avec tous leurs potentiels ; de devenir adulte demain, libres, dans le respect d'eux et des autres, prêts à vivre harmonieusement.<br><br>
+              Elle permet aux parents de se vivre parents responsables et heureux de l'être, sans culpabilité et dans l'accueil de ces petits "phénomènes".<br><br>
+              C'est la rencontre avec soi et son existence. 
+    </mj-text>
+    <mj-button background-color="#F45E43"
+                href="https://www.mariejob.fr/la-sophrologie">Voir SOPHROLOGUE</mj-button>
     </mj-column>
     <mj-column>
       <mj-image
               src="papiers-peints-forme-d-39-arbre-des-racines-et-des-feuilles-vertes-vector-illustration.jpg.jpg" />
-              </mj-column>
-  </mj-section>
+  </mj-column>
+</mj-section>
 
 <!-- Hypnose -->
 <mj-section background-color="#018595">
   <mj-column>
     <mj-image width="200px"
               src="services-hypnotherapie.jpg" />
-              </mj-column>
+  </mj-column>
   <mj-column>
     <mj-text font-style="italic"
-             font-size="25px"
-             align="center"
-             color="white">
-             HYPNOSE      
-             </mj-text>
-
-      <mj-text color="white"
-              align="center"
-              font-size="15px">
-      L'état d'hypnose permet à cette partie plus inconsciente, plus imaginative et créative de faciliter l'accès à ses ressources, et parfois à certaines qui se cachent dans les recoins de l'esprit.<br><br>
-      Alors la personne attentive à ses ressentis internes, à ses pensées, à ses émotions, à ses sensations... accède plus facilement et librement à de nouvelles associations, comme lorsque des connexions se créent à des niveaux de profondeurs différents vers la voie de leur changement.</mj-text>
-
-            <mj-button background-color="#F45E43"
-                     href="https://www.mariejob.fr/seances">Voir HYPNOE</mj-button>
+            font-size="25px"
+            align="center"
+            color="white">
+            HYPNOSE      
+    </mj-text>
+    <mj-text color="white"
+            align="center"
+            font-size="15px">
+            L'état d'hypnose permet à cette partie plus inconsciente, plus imaginative et créative de faciliter l'accès à ses ressources, et parfois à certaines qui se cachent dans les recoins de l'esprit.<br><br>
+            Alors la personne attentive à ses ressentis internes, à ses pensées, à ses émotions, à ses sensations... accède plus facilement et librement à de nouvelles associations, comme lorsque des connexions se créent à des niveaux de profondeurs différents vers la voie de leur changement.</mj-text>
+    <mj-button background-color="#F45E43"
+                href="https://www.mariejob.fr/seances">Voir HYPNOE</mj-button>
   </mj-column>
 </mj-section>
 
@@ -147,6 +142,12 @@
       <mj-social-element name="twitter" />
       <mj-social-element name="linkedin" />
     </mj-social>
+    <mj-text align="center">
+        Confidentialité
+    </mj-text>
+    <mj-text align="center">
+        © 2020 Marie Job
+    </mj-text>
   </mj-column>
 </mj-section>
 
