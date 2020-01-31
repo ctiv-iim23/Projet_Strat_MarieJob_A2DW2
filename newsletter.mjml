@@ -2,51 +2,45 @@
   <mj-body>
 
 <!-- Company Header -->
-<mj-section background-color="#f0f0f0">
-  <mj-column>
-    <mj-text  font-style="italic"
-              font-size="20px"
-              color="#626262"
-              align="center">
-      Marie Job
-    </mj-text>
-  </mj-column>
-</mj-section>
-
-<!-- Image Header -->
-  <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-              background-size="cover"
-              background-repeat="no-repeat">
-
-    <mj-column width="600px">
-
-          <mj-text  align="center"
-                color="#fff"
-                font-size="40px"
-                font-family="Helvetica Neue">SOPHROLOGUE CERTIFIÉE & HYPNOTHÉRAPEUTE</mj-text>
-
-      <mj-button background-color="#F63A4D"
+<mj-hero
+      mode="fixed-height"
+      height="469px"
+      background-width="600px"
+      background-height="469px"
+      background-url="5afe60462baf41e79586f3fdaf78d664.jpg"
+      background-color="#2a3448"
+      padding="100px 0px">
+      <mj-image width="0px"
+              src="marie-job.svg" />
+      <mj-text
+        padding="20px"
+        color="#ffffff"
+        font-family="Helvetica"
+        align="center"
+        font-size="45px"
+        line-height="45px"
+        font-weight="900">
+        MARIEJOB :<br><br>
+        SOPHROLOGUE CERTIFIÉE & HYPNOTHÉRAPEUTE      
+        </mj-text>
+        <mj-button background-color="#F63A4D"
                  href="#">
         Voir le site
       </mj-button>
-
-    </mj-column>
-
-  </mj-section>
+    </mj-hero>
 
 <!-- Intro text -->
   <mj-section background-color="#FFCE9A">
-    <!-- Left image -->
-  <mj-column>
-    <mj-image width="200px"
+    <mj-column>
+      <mj-image width="200px"
               src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-  </mj-column>
+              </mj-column>
         <mj-column width="400px">
 
           <mj-text font-style="italic"
                    font-size="20px"
                    font-family="Helvetica Neue"
-                   color="white">Sophrologue</mj-text>
+                   color="white">SOPHROLOGUE</mj-text>
 
             <mj-text color="white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
@@ -60,20 +54,17 @@
 
 <!-- Side image -->
 <mj-section background-color="#018595">
-
-  <!-- Left image -->
   <mj-column>
     <mj-image width="200px"
               src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-  </mj-column>
-
-  <!-- right paragraph -->
+              </mj-column>
   <mj-column>
     <mj-text font-style="italic"
              font-size="20px"
              font-family="Helvetica Neue"
              color="white">
-Hypnothérapeute      </mj-text>
+             HYPNOTHÉRAPEUTE      
+             </mj-text>
 
       <mj-text color="white">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
